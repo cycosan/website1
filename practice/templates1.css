@@ -1,0 +1,98 @@
+body
+{
+	background-color: aqua;
+	justify-content: center;
+	align-items: center;
+}
+.section
+{
+	background-color:white;
+
+
+	margin-top:5%;
+	height: 80%;
+	width: auto;
+	display: flex;
+	margin-left: 5%;
+	margin-right: 5%;
+	/*margin-bottom: 13%;
+	margin-right:13%*/
+
+}
+.section .one{
+	background-image: url(smar.jpg);
+	float:left;
+	height:100%;
+	width: 50%;
+	background-size: cover;
+	background-position: center;
+	color:green;
+}
+.section .two{
+	background-color:white;
+	height:90%;
+	width: 50%;	
+	padding-left:50px;
+	padding-top: 50px; 
+	display: inline-block;
+}
+.logo img{
+ float:left;
+ width: 60px;
+ height: 20px;
+ margin-top: 10px;
+ margin-left:15px;
+
+}
+label{
+	font-weight: bold;
+	font-size: 20px;
+}
+.section .two .leftside
+{
+	
+	float: left;
+	margin-top: 10px;
+
+}
+.section .two .rightside
+{
+	float: right;
+	margin-right: 40px;
+	
+}
+.leftside input
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	padding: 12px 30px;
+
+
+}
+.rightside input
+{
+margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	margin-right: 40px;
+	padding: 12px 30px;
+}
+.button{
+
+background-color:blue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+	top:87%;
+	left: 65%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	margin-left: 100px;
+
+}

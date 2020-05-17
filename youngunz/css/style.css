@@ -1,0 +1,61 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+
+header
+{
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../smar.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	color:green;
+}
+ul{
+	float: right;
+	margin-top: 20px;
+}
+
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding : 5px 20px;
+	border: 1px solid white;
+	transition: 0.40s ease;
+
+}
+ul li a:hover{
+	color: black;
+	background-color: white;
+
+}
+.logo img{
+ float:left;
+ width: 90px;
+ height: 40px;
+ margin-top: 10px;
+
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+
+}
+.title{
+	position: absolute;
+	top:36%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.title h1{
+	color:white;
+	font-size: 70px;
+
+}
